@@ -1,2 +1,2 @@
 # OrionLib
-Orion UI lib but the UI can be hiden
+Orion UI lib but the UI can be hidden/enabled
