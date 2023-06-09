@@ -659,7 +659,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	end)
 
 	AddConnection(UserInputService.InputBegan, function(Input)
-		if Input.KeyCode == Enum.KeyCode.RightControl then
+		if Input.KeyCode == Enum.KeyCode[_G.UiBind] then
 			MainWindow.Visible = not MainWindow.Visible
 		end
 	end)
