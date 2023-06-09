@@ -1247,8 +1247,8 @@ function OrionLib:MakeWindow(WindowConfig)
 				BindConfig.Default = BindConfig.Default or Enum.KeyCode.Unknown
 				BindConfig.Hold = BindConfig.Hold or false
 				BindConfig.Callback = BindConfig.Callback or function() end
-				BindConfig.Flag = BindConfig.Flag or nil
-				BindConfig.Save = BindConfig.Save or false
+				BindConfig.Flag = BindConfig.Flag or true
+				BindConfig.Save = BindConfig.Save or true
 
 				local Bind = {Value, Binding = false, Type = "Bind", Save = BindConfig.Save}
 				local Holding = false
